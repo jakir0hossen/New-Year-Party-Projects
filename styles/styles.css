@@ -1,0 +1,758 @@
+/* header section */
+
+.header-section {
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+url("../files/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 900px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 30px 120px 20px 180px;
+    border: none;
+    
+}
+
+.header-section > .title-header {
+    text-align: center;
+    padding-top: 120px;
+    color: #FFF;
+    
+    }
+
+.header-section .title-header h3 {
+    font-family: Merriweather;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+}
+
+.header-section .title-header .f-h2 {
+    font-family: Merriweather;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 15px;
+color: #FFF;
+
+}
+.header-section .title-header .s-h2 {
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 0px;
+    color: #FFF;
+}
+
+/* section first */
+
+.section-first .discount {
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0;
+}
+
+.section-first .mid {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.section-first .describe {
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+}
+
+.section-first-tit{
+    height: 230px;
+    width: 900px;
+    border: 1px solid red;
+   border: none;
+    margin: 30px 120px 20px 180px;  
+    margin-bottom: 0;
+}
+
+.first-section-img {
+    height: 350px;
+    width: 600px;
+    margin-left: 370px;
+    border: 1px solid yellow;
+    border: none;
+    margin: 7px 120px 20px 350px;
+}
+
+/* section second */
+
+.section-second {
+    display: flex;
+    height: 400px;
+    width: 900px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 30px 120px 20px 180px;
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../files/Vectorrr.png");;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-second> .img {
+    border: 1px solid red;
+    border: none;
+    width: 220px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 60px;
+    
+}
+
+.section-second> .col-one> .sec-h2 {
+    width: 500px;
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 7.04px;
+margin-bottom: 0;
+}
+
+.sec-describe {
+    width: 500px;
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-top: 10px;
+}
+
+.sec-section-button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    background-color: #F00;
+    border-radius: 5px;
+}
+
+.section-second > .col-one{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+/* section-three */
+
+.section-three {
+    height: 250px;
+    width: 900px;
+    border: 1px solid red;
+    border: none;
+    margin: 30px 120px 20px 180px;
+   
+}
+
+.section-three> .sec {
+    height: 300px;
+    width: 900px;
+
+    text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+text-transform: capitalize;
+border: 1px solid red;
+}
+
+.section-three> .trhee-title, .trhee-title-mid, .trhee-title-lst {
+    font-size: 25px;
+    font-family: Inter;
+    text-transform: capitalize;
+}
+
+.trhee-title{
+    margin-bottom: 0;
+}
+.trhee-title-mid{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.trhee-title-lst{
+    margin-top: 5px;
+}
+span {
+    color: #F00;
+}
+
+.section-three > .trhee-title{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.section-three > .trhee-title-mid{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.section-three > .trhee-title-lst{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.sec-three-btn {
+    margin-left: 412px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #F00;
+    border: 1px solid black;
+    border: none;
+    height: 25px;
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* section four */
+
+.section-four {
+    height: 280px;
+    width: 900px;
+    border: 1px solid red;  
+    border: none;
+    margin: 30px 120px 20px 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.four-title {
+    color: #F00;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 50px;
+margin-bottom: 0;
+}
+
+.four-title-sec{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+.four-describe {
+    border: 1px solid yellow;
+    border: none;
+    color: rgba(7, 2, 17, 0.60);
+width: 200px;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-top: 5px;
+}
+
+.four-title-two{
+    color: #F00;
+
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 50px;
+margin-bottom: 0;
+
+}
+
+.describe-four-two{
+    
+    color: rgba(7, 2, 17, 0.60);
+width: 170px;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+
+}
+
+.col-mid-four > img{
+    border: 10px solid red;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+/* section five */
+.section-five {
+    height: 510px;
+    width: 750px;
+    border: 1px solid red;
+    border: none;
+    margin: 30px 120px 20px 180px;
+   
+}
+
+.first-img {
+    margin-top: 472px;
+    
+    background: transparent;
+}
+
+.box{
+    border: 1px solid black;
+    border: none;
+    width: 350px;
+    height: 280px;
+    margin-top: 45px;
+    margin-left: 40px;
+    background: url('../files/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 500px 100px;
+    background-position: bottom;
+    position: relative;
+}
+
+.bot-img {
+    height: 100px;
+    width: 750px;
+    border: 1px solid yellow;
+    border: none;
+    margin-top: 212px;
+    position: absolute;
+}
+
+.cot{
+    opacity: 0.9;
+    margin-left: 500px;
+    position: absolute;
+    
+}
+
+.mot {
+    height: 140px;
+    width: 140px;
+    border: 1px solid black;
+    border: none;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.section-five> .fist-title {
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+
+.section-five> .second-title{
+    color: #F00;
+margin-top: 7px;
+text-align: center;
+font-family: Merriweather;
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-bottom: 0;
+}
+
+.five-section-describe-one, .five-section-describe-two, .five-section-describe-three {
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+}
+
+.five-section-describe-one{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.five-section-describe-two{
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.five-section-describe-three {
+    margin-top: 1px;
+    bottom: 0;
+}
+
+
+   
+ 
+
+/* six section */
+
+.heading-six-section{
+    height: 60px;
+    width: 900px;
+    border: 1px solid red; 
+    border: none;
+    margin: 80px 120px 20px 180px;
+}
+
+.six-one-title {
+    color: #F00;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+.six-two-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+.six-describe{
+    width: 440px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+.col-one-six, .col-two-six, .col-three-six {
+    display: block;
+}
+
+.six-section {
+    margin-top: 5px;
+    height: 600px;
+    width: 900px;
+    border: 1px solid red;
+    border: none;
+    margin: 30px 120px 20px 180px;
+    display: flex;
+}
+
+/* seven section */
+
+.section-seven {
+    height: 280px;
+    width: 900px;
+    background: rgba(255, 0, 0, 0.05);
+    border: 1px solid red;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 120px 20px 180px;
+   
+}
+
+.section-seven > .icon {
+    margin-left: 410px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.section-seven> .seven-title {
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+.section-seven > .seven-describe {
+    width: 570px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+margin-top: 5px;
+margin-left: 165px;
+
+}
+
+.btn-input {
+
+    display: flex;
+    margin-left: 325px;
+}
+
+.btn-input > input[type="email"]{
+    border: 1px solid red;
+    height: 30px;
+    width: 180px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+}
+.btn-input > button {
+ height: 34px;
+ width: 80px;
+ background: #F00;
+ color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+outline: none;
+border: none;
+border-bottom-right-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+
+/* footer section */
+.footer-final {
+    background: #070211;
+    height: 380px;
+    width: 900px;
+    border: 1px solid red;
+    border: none;
+    margin: 30px 120px 20px 180px;
+}
+
+.step-one-footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-describe{
+    color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+width: 200px;
+margin-top: 50px;
+margin-left: 60px;
+}
+
+.contact {
+    color: #FFF;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 10px; 
+margin-top: 40px;
+margin-right: 120px;
+position: ;
+margin-left: 0;
+}
+
+.cro, .pro {
+    position: absolute;
+
+}
+.cro{
+    margin-top: 27px;
+    margin-left: -30px;
+}
+.pro {
+    margin-top: 6px;
+    margin-left: -30px;
+}
+
+.hori-one {
+    width: 90%;
+    
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+
+.step-two-footer {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.hori-two {
+    width: 90%;
+    
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.lst-footer-unit {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.left {
+    margin-left: 60px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+
+
+/* finally done 1st assignment */
+
+
+/* hover practice */
+
+.col-one-six:hover .fst {
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+}
+.col-one-six:hover .scnd {
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+}
+
+.col-two-six:hover .thrd  {
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+}
+
+.col-two-six:hover .frth {
+    transform: (2,2);
+    -webkit-transform: (2,2);
+    -moz-transform: (2,2);
+    -ms-transform: (2,2);
+    -o-transform: (2,2);
+}
+
+
+.col-three-six:hover .fth {
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+}
+.six-section:hover #rear {
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+}
+
+
+
+/* THE END */
